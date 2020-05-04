@@ -7,6 +7,6 @@ module.exports = [
   // Nav 2
   {
     text: "Category",
-    link: "/category/"
+    link: "/anteproyecto/"
   },
 ];

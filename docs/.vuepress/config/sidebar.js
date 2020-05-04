@@ -1,3 +1,3 @@
 module.exports = {
-  "/category/": require("../../category/sidebar_contents"),
+  "/anteproyecto/": require("../../anteproyecto/sidebar_contents"),
 };

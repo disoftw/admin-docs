@@ -1,11 +1,11 @@
 ---
 home: true
-heroImage: http://aaaimx.org/img/sprites/aaai-transpeps.png
+heroImage: http://www.aaaimx.org/img/other/aaaimx-ist.png
 actionText: Discover →
-actionLink: /about/
+actionLink: /anteproyecto/
 features:
-- title: FrontEnd
-  details: Acercate al maravilloso mundo del desarrollo del lado del cliente
+- title: INTRODUCCIÓN
+  details: En este capítulo se detallan los elementos propios de la problemática que resolverá el proyecto, así como las especificaciones que se tomarán para abordarlo, como los objetivos, las limitaciones y los alcances. 
 - title: BackEnd
   details: Entérate de que tecnologias y lenguajes estan dominando 
 - title: DevOps

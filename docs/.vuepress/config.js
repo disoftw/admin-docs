@@ -3,13 +3,13 @@ module.exports = {
   description: "Student Chapter",
   base: "/",
   head: [
-    ["link",{ rel: "icon",href: "https://www.aaaimx.org/img/other/aaaimx-ist.png" }]
+    ["link",{ rel: "icon",href: "https://www.aaaimx.org/img/favicons/favicon.ico" }]
   ],
   markdown: {
     lineNumbers: false,
   },
   themeConfig: {
-    logo: "https://www.aaaimx.org/img/other/aaaimx-ist.png",
+    logo: "http://www.aaaimx.org/img/sprites/aaai-transpeps.png",
     smoothScroll: true,
     nav: require("./config/nav"),
     sidebar: require("./config/sidebar"),
@@ -33,13 +33,13 @@ module.exports = {
       'meta',
       {
         name: 'og:image',
-        content: 'https://www.aaaimx.org/img/other/aaaimx-ist.png'
+        content: 'http://www.aaaimx.org/img/sprites/aaai-transpeps.png'
       }
     ],
     [
       'link',
       {
-        href: 'https://www.aaaimx.org/img/other/aaaimx-ist.png',
+        href: 'http://www.aaaimx.org/img/sprites/aaai-transpeps.png',
         rel: 'shortcut icon'
       },
       'link',
