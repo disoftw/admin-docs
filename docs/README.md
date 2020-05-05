@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: SISTEMA GESTOR DE TRABAJOS ACADEMICOS E INVESTIGACIONES
-heroImage: http://www.aaaimx.org/img/other/aaaimx-ist.png
+heroImage: https://www.aaaimx.org/img/other/aaaimx-ist.png
 actionText: read more →
 actionLink: /anteproyecto/
 # features:

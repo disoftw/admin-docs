@@ -1,18 +1,12 @@
 module.exports = {
   title: 'AAAIMX',
   description: 'Student Chapter',
-  base: '/',
-  head: [
-    [
-      'link',
-      { rel: 'icon', href: 'https://www.aaaimx.org/img/favicons/favicon.ico' }
-    ]
-  ],
+  base: '/admin-docs/',
   markdown: {
     lineNumbers: false
   },
   themeConfig: {
-    logo: 'http://www.aaaimx.org/img/sprites/aaai-transpeps.png',
+    logo: 'https://www.aaaimx.org/img/sprites/aaai-transpeps.png',
     smoothScroll: true,
     nav: require('./config/nav'),
     sidebar: {},
@@ -42,14 +36,8 @@ module.exports = {
     [
       'link',
       {
-        href: 'http://www.aaaimx.org/img/sprites/aaai-transpeps.png',
+        href: 'https://www.aaaimx.org/img/favicons/favicon.ico',
         rel: 'shortcut icon'
-      },
-      'link',
-      {
-        href:
-          'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@700&display=swap',
-        rel: 'stylesheet'
       }
     ]
   ],
