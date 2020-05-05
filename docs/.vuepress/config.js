@@ -1,21 +1,24 @@
 module.exports = {
-  title: "AAAIMX",
-  description: "Student Chapter",
-  base: "/",
+  title: 'AAAIMX',
+  description: 'Student Chapter',
+  base: '/',
   head: [
-    ["link",{ rel: "icon",href: "https://www.aaaimx.org/img/favicons/favicon.ico" }]
+    [
+      'link',
+      { rel: 'icon', href: 'https://www.aaaimx.org/img/favicons/favicon.ico' }
+    ]
   ],
   markdown: {
-    lineNumbers: false,
+    lineNumbers: false
   },
   themeConfig: {
-    logo: "http://www.aaaimx.org/img/sprites/aaai-transpeps.png",
+    logo: 'http://www.aaaimx.org/img/sprites/aaai-transpeps.png',
     smoothScroll: true,
-    nav: require("./config/nav"),
-    sidebar: require("./config/sidebar"),
-    lastUpdated: "Last Updated",
-    repo: "https://github.com/zpfz/vuepress-creator",
-    editLinks: false,
+    nav: require('./config/nav'),
+    sidebar: {},
+    lastUpdated: 'Last Updated',
+    repo: 'https://github.com/zpfz/vuepress-creator',
+    editLinks: false
   },
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -60,6 +63,5 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
-  
-};
+  plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom']
+}

@@ -1,12 +1,12 @@
 module.exports = [
   // Nav 1
   {
-    text: "Home",
+    text: "Intro",
     link: "/"
   },
   // Nav 2
   {
-    text: "Category",
+    text: "Anteproyecto",
     link: "/anteproyecto/"
   },
 ];
